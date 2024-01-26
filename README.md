@@ -16,7 +16,7 @@
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
+- View the optimal layout for the component depending on the device's screen size
 
 ### Screenshot
 
@@ -33,7 +33,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 
 ## Author
