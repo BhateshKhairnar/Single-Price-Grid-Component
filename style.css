@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Light-Gray);
+  font-family: "Karla", sans-serif;
+  line-height: 1;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 2.4rem;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.wrapper {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  overflow: hidden;
+  border-radius: 0.9rem;
+}
+
+.content {
+  display: grid;
+  grid-auto-columns: 1fr;
+}
+
+.card {
+  padding: 4.2rem;
+}
+
+.card-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: #fff;
+}
+
+.primary-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--Cyan);
+  margin-bottom: 2rem;
+}
+
+.primary-text {
+  color: var(--Bright-Yellow);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.sub-col-1 {
+  display: block;
+  color: var(--Grayish-Blue);
+}
+.sub-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.card-2 {
+  background-color: var(--Cyan);
+}
+
+.secondary-heading {
+  font-size: 2rem;
+  color: var(--Light-Gray);
+  margin-bottom: 2rem;
+}
+
+.pricebox {
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--Light-Gray);
+}
+
+.time {
+  color: var(--Light-Gray);
+  font-weight: 700;
+  font-size: 1.6rem;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.sub-col-2 {
+  color: var(--Light-Gray);
+  margin-bottom: 3.5rem;
+}
+
+.btn-green,
+.btn-green:link,
+.btn-green:visited {
+  display: block;
+  padding: 1.8rem 4.8rem;
+  border-radius: 0.5rem;
+  background-color: var(--Bright-Yellow);
+  color: var(--Light-Gray);
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card-3 {
+  background-color: var(--Cyan);
+  opacity: 0.9;
+}
+
+.lists {
+  list-style: none;
+  line-height: 1.5;
+  color: var(--Light-Gray);
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 34em) {
+  .container {
+    width: 42rem;
+  }
+  .card-1 {
+    grid-column: 1;
+  }
+  .card {
+    padding: 3rem;
+  }
+  .sub-col-1 {
+    display: inline;
+  }
+}
