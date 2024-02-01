@@ -20,6 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
+![desktop-design](https://github.com/BhateshKhairnar/Single-Price-Grid-Component/assets/111328681/30c585c8-0eaf-41ee-ae77-3370e6d2921a)
 
 
 ### Links
